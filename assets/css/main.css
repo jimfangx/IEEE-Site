@@ -1019,6 +1019,10 @@ section,
 /*--------------------------------------------------------------
 # decals Section
 --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# decals Section
+--------------------------------------------------------------*/
+
 .decals .service-item {
   background-color: var(--surface-color);
   text-align: center;
@@ -1026,6 +1030,8 @@ section,
   padding: 80px 20px;
   height: 100%;
   transition: all ease-in-out 0.3s;
+  height: 350px;
+  /* Adjust height for a more square appearance */
 }
 
 .decals .service-item .icon {
@@ -1064,6 +1070,17 @@ section,
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
 }
+
+/* Force a 2x2 Layout on Larger Screens */
+@media (min-width: 992px) {
+  .decals .row.gy-4>div {
+    flex: 0 0 50%;
+    /* Each item takes 50% width */
+    max-width: 50%;
+    /* Ensure the items don't exceed 50% width */
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Call To Action Section
