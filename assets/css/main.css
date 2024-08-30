@@ -12,29 +12,41 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Raleway",  sans-serif;
-  --nav-font: "Poppins",  sans-serif;
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Raleway", sans-serif;
+  --nav-font: "Poppins", sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #151515; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #ffc451; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #312f2f; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+:root {
+  --background-color: #ffffff;
+  /* Background color for the entire website, including individual sections */
+  --default-color: #444444;
+  /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #151515;
+  /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #ffc451;
+  /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #ffffff;
+  /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #312f2f;
+  /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: rgba(255, 255, 255, 0.905);  /* The default color of the main navmenu links */
-  --nav-hover-color: #ffc451; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #ffc451; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: rgba(255, 255, 255, 0.905);
+  /* The default color of the main navmenu links */
+  --nav-hover-color: #ffc451;
+  /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #ffffff;
+  /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #ffffff;
+  /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #212529;
+  /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #ffc451;
+  /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -937,9 +949,9 @@ section,
 # Clients Section
 --------------------------------------------------------------*/
 .clients .swiper-slide img {
-  opacity: 0.5;
+  opacity: 0.7;
   transition: 0.3s;
-  filter: grayscale(100);
+  /* filter: grayscale(100); */
 }
 
 .clients .swiper-slide img:hover {
@@ -1005,9 +1017,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Services Section
+# decals Section
 --------------------------------------------------------------*/
-.services .service-item {
+.decals .service-item {
   background-color: var(--surface-color);
   text-align: center;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
@@ -1016,7 +1028,7 @@ section,
   transition: all ease-in-out 0.3s;
 }
 
-.services .service-item .icon {
+.decals .service-item .icon {
   background: var(--accent-color);
   color: var(--contrast-color);
   margin: 0 auto;
@@ -1030,25 +1042,25 @@ section,
   transition: 0.3s;
 }
 
-.services .service-item .icon i {
+.decals .service-item .icon i {
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
 
-.services .service-item h3 {
+.decals .service-item h3 {
   font-weight: 700;
   margin: 10px 0 15px 0;
   font-size: 22px;
   transition: 0.3s;
 }
 
-.services .service-item p {
+.decals .service-item p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .service-item:hover {
+.decals .service-item:hover {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
 }
@@ -1597,11 +1609,11 @@ section,
   margin-bottom: 15px;
 }
 
-.service-details .services-list {
+.service-details .decals-list {
   background-color: var(--surface-color);
 }
 
-.service-details .services-list a {
+.service-details .decals-list a {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   background-color: color-mix(in srgb, var(--default-color), transparent 96%);
   display: flex;
@@ -1611,26 +1623,26 @@ section,
   transition: 0.3s;
 }
 
-.service-details .services-list a:first-child {
+.service-details .decals-list a:first-child {
   margin-top: 0;
 }
 
-.service-details .services-list a i {
+.service-details .decals-list a i {
   font-size: 16px;
   margin-right: 8px;
   color: var(--accent-color);
 }
 
-.service-details .services-list a.active {
+.service-details .decals-list a.active {
   color: var(--contrast-color);
   background-color: var(--accent-color);
 }
 
-.service-details .services-list a.active i {
+.service-details .decals-list a.active i {
   color: var(--contrast-color);
 }
 
-.service-details .services-list a:hover {
+.service-details .decals-list a:hover {
   background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
   color: var(--accent-color);
 }
@@ -1679,7 +1691,7 @@ section,
   color: var(--contrast-color);
 }
 
-.service-details .services-img {
+.service-details .decals-img {
   margin-bottom: 20px;
 }
 
@@ -1711,8 +1723,19 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Starter Section Section
+# Custom Style Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+
+/* Increase font size and improve readability */
+#make-it-large {
+  font-size: 24px;
+  /* Increase font size */
+  font-weight: bold;
+  /* Make the text bold */
+  color: #ffffff;
+  /* Set text color to white for contrast */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  /* Add shadow for better contrast */
+  line-height: 1.5;
+  /* Increase line height for better spacing */
 }
