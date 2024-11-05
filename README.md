@@ -1,6 +1,4 @@
 CHange me
 
 hello -Alec
-
-hello there
-General kenobi -Connor
+hello there -Connor
