@@ -99,6 +99,10 @@ h6 {
   font-family: var(--heading-font);
 }
 
+img {
+  border-radius: 5px;
+};
+
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
