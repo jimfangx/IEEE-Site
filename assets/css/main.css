@@ -1030,7 +1030,7 @@ section,
   padding: 80px 20px;
   height: 100%;
   transition: all ease-in-out 0.3s;
-  height: 375px;
+  height: 435px;
   /* Adjust height for a more square appearance */
 }
 
@@ -1069,7 +1069,7 @@ section,
 .decals .service-item:hover {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
-}
+}/* should highlight an image in the background to make an indication that you can click on it for the website for the decal 
 
 /* Force a 2x2 Layout on Larger Screens */
 @media (min-width: 992px) {
