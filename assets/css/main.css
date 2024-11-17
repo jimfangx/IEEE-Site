@@ -25,7 +25,8 @@
   /* Default color used for the majority of the text content across the entire website */
   --heading-color: #151515;
   /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #ffc451;
+  --accent-color: #125894;
+  /*#ffc451;
   /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff;
   /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -37,7 +38,8 @@
 :root {
   --nav-color: rgba(255, 255, 255, 0.905);
   /* The default color of the main navmenu links */
-  --nav-hover-color: #ffc451;
+  --nav-hover-color: #125894;
+  /* #ffc451;
   /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff;
   /* Used as the background color for mobile navigation menu */
@@ -45,7 +47,8 @@
   /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #212529;
   /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #ffc451;
+  --nav-dropdown-hover-color: #125894;
+  /* #ffc451;
   /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
@@ -101,7 +104,9 @@ h6 {
 
 img {
   border-radius: 5px;
-};
+}
+
+;
 
 /* PHP Email Form Messages
 ------------------------------*/
@@ -1073,7 +1078,9 @@ section,
 .decals .service-item:hover {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
-}/* should highlight an image in the background to make an indication that you can click on it for the website for the decal 
+}
+
+/* should highlight an image in the background to make an indication that you can click on it for the website for the decal 
 
 /* Force a 2x2 Layout on Larger Screens */
 @media (min-width: 992px) {
