@@ -25,7 +25,7 @@
   /* Default color used for the majority of the text content across the entire website */
   --heading-color: #151515;
   /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #125894;
+  --accent-color: #3792CB;
   /*#ffc451;
   /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff;
@@ -38,7 +38,7 @@
 :root {
   --nav-color: rgba(255, 255, 255, 0.905);
   /* The default color of the main navmenu links */
-  --nav-hover-color: #125894;
+  --nav-hover-color: #3792CB;
   /* #ffc451;
   /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff;
