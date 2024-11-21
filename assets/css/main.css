@@ -955,36 +955,39 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Clients Section
+# industry Section
 --------------------------------------------------------------*/
-.clients .swiper-slide img {
-  opacity: 0.7;
+.industry {
+  background-color: #003262;
+}
+.industry .swiper-slide img {
+  opacity: 1;
   transition: 0.3s;
   /* filter: grayscale(100); */
 }
 
-.clients .swiper-slide img:hover {
+.industry .swiper-slide img:hover {
   filter: none;
-  opacity: 1;
+  opacity: 1; /* link to sponsor's website? */
 }
 
-.clients .swiper-wrapper {
+.industry .swiper-wrapper {
   height: auto;
 }
 
-.clients .swiper-pagination {
+.industry .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.clients .swiper-pagination .swiper-pagination-bullet {
+.industry .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   opacity: 1;
   background-color: color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
-.clients .swiper-pagination .swiper-pagination-bullet-active {
+.industry .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
 }
 
