@@ -1405,6 +1405,15 @@ section,
   opacity: 1;
 }
 
+.test-flex {
+  display: flex;
+  align-items: center
+}
+
+.test-padding {
+  padding: 75px;
+}
+
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
     width: 80%;
@@ -1759,7 +1768,7 @@ section,
 
 /* Increase font size and improve readability */
 #make-it-large {
-  font-size: 24px;
+  font-size: 14px;
   /* Increase font size */
   font-weight: bold;
   /* Make the text bold */
@@ -1769,4 +1778,5 @@ section,
   /* Add shadow for better contrast */
   line-height: 1.5;
   /* Increase line height for better spacing */
+  text-align: center
 }
