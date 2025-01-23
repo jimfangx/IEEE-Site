@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>UC Berkeley IEEE</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Imported Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Imported CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="committees-page">
+
+  <header id="header" class="header d-flex align-items-center position-relative">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">        
+        <!--<h1 class="sitename">UC Berkeley.</h1>-->
+        <span><img src="assets/img/ieee-logo.png" alt=""></span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <!-- <li><a href="#decals">Industry</a></li> -->
+          <li><a href="#decals">Decals</a></li>
+          <li><a href="#portfolio">Events</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="committees.html">Committees</a></li>
+          <li class="dropdown"><a href="#"><span>Links</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="http://berkie.ee/slack" target="_blank" rel="noopener noreferrer">Slack</a></li>
+              <li><a href="https://discord.gg/CTgmxfKx4A" target="_blank" rel="noopener noreferrer">Discord</a></li>
+              <li><a href="https://berkie.ee/wiki" target="_blank" rel="noopener noreferrer">Wiki</a></li>
+              <li><a href="https://airtable.com/appybgPRhTf3clWII/pagJMNA7gOP4BNbtZ/form" target="_blank" rel="noopener noreferrer">General Member Sign up Form</a></li>
+              <li><a href="projects.html" target="_blank" rel="noopener noreferrer">Join a Project</a></li>
+              <li><a href="committees.html" target="_blank" rel="noopener noreferrer">Join a Committee</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <!-- Evenetually go to new member page that has all the links-->
+      <a class="btn-getstarted" href="https://airtable.com/appybgPRhTf3clWII/pagJMNA7gOP4BNbtZ/form" target="_blank" rel="noopener noreferrer">Join IEEE today!</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <!-- <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h2>Projects</h2>
+              <p class="mb-0">Check out our ongoing technical projects</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Projects</li>
+          </ol>
+        </div>
+      </nav>
+    </div>End Page Title -->
+
+    <!-- Projects Grid Section -->
+    <section id="projects" class="projects">
+      <div class="container" data-aos="fade-up">
+        <!-- Introduction Section -->
+        <div class="projects-intro mb-5">
+          <h1 class="display-4 mb-4">Welcome to IEEE Projects!</h1>
+          <p class="lead">We're hosting projects for you to get some hands-on experience! This semester, we're trying to change up the pace of projects with a hardware project: SIEEECURE. We also have IEEE Time for software development.</p>
+          <p>Projects will take ~5 hours/wk of commitment. If you're interested in applying computer science skills to practical applications, we highly encourage you to apply!</p>
+          <p>For more information, feel free to Slack Jim Fang or send an email to jfx@berkeley.edu</p>
+        </div>
+
+        <div class="row gy-4">
+          <!-- IEEE-Time -->
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-item">
+              <img src="assets/img/projects/ieee-time.png" class="img-fluid" alt="IEEE Time Project">
+              <div class="project-content">
+                <h3>IEEE-Time</h3>
+                <p>IEEE Time is a suite of internal management tools for our club. Some features include member management, room reservation, internal calendar, inventory, and much more! You will be working on various feature developments for our management suite in Node.js, Express.js, MongoDB, and other web technologies. Prior experience is good to have, but not a requirement!</p>
+                <a href="https://airtable.com/appybgPRhTf3clWII/pagEHXevb0DtnfgWs/form" class="read-more" target="_blank" rel="noopener noreferrer">Join Project <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- SIEEECURE -->
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-item">
+              <!-- iframe can be spooky ): so added security features -->
+              <iframe 
+                src="https://docs.google.com/presentation/d/1WR0MHGeFE_cqSsjMnr25ZE_apENoWVQsuXqlCqrOg-U/embed?start=false&loop=false&delayms=3000" 
+                frameborder="0" 
+                width="100%" 
+                height="250"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+                sandbox="allow-scripts allow-same-origin allow-presentation"
+                title="SIEEECURE Project Presentation"
+                class="project-iframe">
+              </iframe>
+              <div class="project-content">
+                <h3>SIEEECURE</h3>
+                <p>This project aims to tackle developing a secure system from a hardware level. The goal is to develop threat models and implement a secure hardware encryption module on a FPGA. You will learn the fundamentals of VLSI design with Verilog, SystemVerilog, and other design tools.</p>
+                <p><em>CS 61C experience is RECOMMENDED and further interest in computer security, computer architecture, or digital logic design is awesome!</em></p>
+                <a href="https://airtable.com/appybgPRhTf3clWII/pagEHXevb0DtnfgWs/form" class="read-more" target="_blank" rel="noopener noreferrer">Join Project <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Speech Recognition -->
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="project-item">
+              <!-- <img src="assets/img/projects/speech.jpg" class="img-fluid" alt="Speech Recognition Project"> -->
+              <div class="project-content">
+                <h3>Speech Recognition & Processing Project</h3>
+                <p>The project will build an application that can transcribe text either in real time or from mp3 files. The goal of the project is to build something like AWS transcribe but make it open source for other people to use. The project would be implemented using deep learning libraries such as TenserFlow or PyTorch.</p>
+                <a href="https://airtable.com/appybgPRhTf3clWII/pagEHXevb0DtnfgWs/form" class="read-more" target="_blank" rel="noopener noreferrer">Join Project <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Infrastructure Team -->
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="project-item">
+              <!-- <img src="assets/img/projects/infrastructure.jpg" class="img-fluid" alt="Infrastructure Team"> -->
+              <div class="project-content">
+                <h3>Infrastructure Team</h3>
+                <p>The infrastructure team will maintain all IEEE servers both in our office in 288 Cory and in the campus datacenter. The team will provide infrastructure support to the rest of the IEEE committees and projects. If you are interested in Linux, System Administration, Tinkering around with mail servers, Nginx, etc., join the infra team!</p>
+                <a href="https://airtable.com/appybgPRhTf3clWII/pagEHXevb0DtnfgWs/form" class="read-more" target="_blank" rel="noopener noreferrer">Join Project <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">IEEE Student Branch 
+                <p>University of California, Berkeley</p></span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>UC Berkeley IEEE</p>
+              <p>EECS Department</p>
+              <p>288 Cory Hall #1770</p>
+              <p>Berkeley, CA 94720-1772</p>
+              <p><strong>Email:</strong> <span>ieee@berkeley.edu</span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href="https://www.instagram.com/ieeeucb/"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/ieee-ucb/"><i class="bi bi-linkedin"></i></a>
+              <a href="https://www.facebook.com/pages/UC-Berkeley-IEEE/164764630218416"><i class="bi bi-facebook"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4>Join Our Slack</h4>
+            <p>Join our Slack and receive updates about meetings, industry hiring conferences, and more!</p>
+            <a href="https://slack.com" target="https://join.slack.com/t/berkeleyieee/shared_invite/zt-2p8333jh3-RwwHwHM~mHrnIvxb_WrQxA" class="btn btn-large btn-primary slack-button">Join Slack</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="container text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">2024 IEEE Student Branch At UC Berkeley</strong> <span>All Rights Reserved</span></p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
