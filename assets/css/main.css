@@ -1077,6 +1077,11 @@ section,
   transform: translateY(-10px);
 }
 
+.decal-title {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
 /* should highlight an image in the background to make an indication that you can click on it for the website for the decal 
 
 /* Force a 2x2 Layout on Larger Screens */
@@ -1461,16 +1466,39 @@ section,
 
 .test-flex {
   display: flex;
-  align-items: center
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.test-flex img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
 }
 
 .test-padding {
-  padding: 75px;
+  padding: 1rem;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
-@media (min-width: 992px) {
-  .testimonials .testimonial-item p {
-    width: 80%;
+@media (min-width: 768px) {
+  .test-flex {
+    flex-direction: row;
+    text-align: left;
+    gap: 2rem;
+  }
+
+  .test-flex img {
+    max-width: 500px;
+    margin-bottom: 0;
+  }
+
+  .test-padding {
+    font-size: 1.2rem;
   }
 }
 
