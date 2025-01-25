@@ -178,9 +178,16 @@ img {
   line-height: 1;
 }
 
-.header .logo img {
+.header .logo img,
+.logo-img img {
   max-height: 36px;
   margin-right: 8px;
+  transition: filter 0.3s ease;
+}
+
+.header .logo:hover img,
+.logo-img:hover img {
+  filter: brightness(0) saturate(100%) invert(27%) sepia(83%) saturate(1632%) hue-rotate(189deg) brightness(93%) contrast(98%);
 }
 
 .header .logo h1 {
@@ -494,21 +501,38 @@ img {
 }
 
 .footer .footer-about .logo {
-  line-height: 1;
-  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  color: var(--default-color);
 }
 
-.footer .footer-about .logo img {
-  max-height: 40px;
-  margin-right: 6px;
+.footer .footer-about .logo:hover {
+  color: var(--default-color);
 }
 
-.footer .footer-about .logo span {
-  font-size: 26px;
+.footer .footer-about .logo .footer-logo {
+  max-height: 60px;
+  width: auto;
+}
+
+.footer .footer-about .logo .footer-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .footer-about .logo .footer-title .sitename {
+  font-size: 24px;
   font-weight: 700;
-  letter-spacing: 1px;
-  font-family: var(--heading-font);
-  color: var(--heading-color);
+  margin-bottom: 5px;
+  color: var(--default-color);
+}
+
+.footer .footer-about .logo .footer-title p {
+  font-size: 16px;
+  margin: 0;
+  color: var(--default-color);
 }
 
 .footer .footer-about p {
